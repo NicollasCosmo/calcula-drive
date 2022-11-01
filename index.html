@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula-Drive</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Angkor' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Calcula Drive</h1>
+        </header>
+        <form>
+            <div>
+                <label>Valor da corrida</label>
+                <input type="number" id="valor" step="0.01" min="0.01" placeholder="Valor pago pelo app">
+            </div>
+
+            <div>
+                <label>Percurso total</label>
+                <input type="number" id="percorrido" placeholder="Total de km percorrido">
+            </div>
+
+            <div>
+                <button type="button" class="calcular">Calcular</button>
+                <button type="button" id="atu" class="atualiza">Nova consulta</button>
+            </div> 
+
+            <div id="divResultado">
+                <h3>O Valor pago por km:</h3>
+                <p><span id="valorPorkm">0</span></p>
+            </div>
+
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
