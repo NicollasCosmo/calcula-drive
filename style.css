@@ -99,3 +99,68 @@ button {
     transform: scale(1.2);
     color: white;
 }
+
+/* responsividade para smartphone*/
+
+@media screen and (max-width: 480px) {
+    
+    form {
+        
+       margin: 90px 0 0 0;
+    }
+
+    .calcular {
+        padding: 15px 0;
+        margin: 0 0 0 0;
+        width: 40%;
+        color: #363632;
+        font-weight: bold;
+        font-size: 17px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s all;
+    }
+
+    .atualiza {
+        padding: 15px 0px;
+        width: 40%;
+        color: #363632;
+        font-weight: bold;
+        font-size: 17px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s all;
+    }
+
+    #divResultado  {
+
+        margin: 50px 0 0 0;
+        font-family: 'Angkor';
+        color: #363632;
+       
+    }
+
+    h3 {
+        font-size: 25px;
+
+    }
+
+    p {
+
+        font-size: 55px;
+    }
+
+    input {
+
+        margin: 0 0 20px;
+        padding: 25px 25px;
+        font-size: 30px;
+        text-align: center;
+        width: 40%;
+        font-weight: bold;
+    }
+
+
+}
